@@ -1,0 +1,47 @@
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    text-align: center;
+    padding: 10px;
+}
+.main {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 100px auto;
+}
+.navbar {
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+}
+.catalog {
+    position: fixed;
+}
+.catalog__item {
+    margin: 42px 0 35px 7px;
+}
+a {
+    padding: 10px;
+    text-align: center;
+    color: black;
+    font-size: 34px;
+    text-decoration: none;
+    border: 2px solid black;
+}
+h2 {
+    text-align: center;
+}
+p {
+    padding-left: 3em;
+    padding-right: 3em;
+}
+.content {
+    border: 5px solid black;
+    padding: 10px;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+/*Have Fun*/
